@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  trading-agent:
+    build: .
+    container_name: trading-agent
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - TAVILY_API_KEY=${TAVILY_API_KEY}
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/app
+    restart: unless-stopped 
