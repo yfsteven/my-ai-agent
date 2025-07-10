@@ -1,4 +1,4 @@
-# 🤖 AI Trading Agent
+# 🤖 Finance Trading AI Agent
 
 An intelligent financial trading agent built with LangChain and LangGraph that provides comprehensive stock analysis, technical indicators, and market insights.
 
